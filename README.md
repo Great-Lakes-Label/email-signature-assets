@@ -19,14 +19,14 @@ no rebuild, no re-paste.
 ## Live URLs (GitHub Pages)
 
 ```
-https://great-lakes-label.github.io/email-signature-assets/banners/current.png
+https://great-lakes-label.github.io/email-signature-assets/banners/current.jpg
 ```
 
 ## How to update the banner everywhere
 
-1. Replace `banners/current.png` with the new image (keep the **same filename**).
+1. Replace `banners/current.jpg` with the new image (keep the **same filename**).
 2. Commit and push.
-3. Done — every signature that points at `current.png` shows the new banner the
+3. Done — every signature that points at `current.jpg` shows the new banner the
    next time the email client refreshes images.
 
 Notes:
@@ -40,6 +40,6 @@ Notes:
 
 ```
 banners/
-  current.png     # the active banner (swap this file to update everywhere)
+  current.jpg     # the active banner (swap this file to update everywhere)
 .nojekyll         # serve files as-is (no Jekyll processing)
 ```
